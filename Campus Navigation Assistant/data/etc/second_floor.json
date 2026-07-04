@@ -1,0 +1,167 @@
+{
+  "floor_number": 2,
+  "floor_name": "Second Floor",
+  "building": "Emerging Technology Complex",
+
+  "description": "School of Engineering, Physics Department, Mathematics Department, Library and Zoology facilities.",
+
+  "vertical_connections": {
+    "stairs": [
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase"
+    ],
+    "lifts": [
+      "Lift A",
+      "Lift B"
+    ]
+  },
+
+  "zones": {
+
+    "south_wing": {
+
+      "locations": [
+
+        {
+          "room_no": "201",
+          "name": "School of Engineering",
+          "type": "Department"
+        },
+
+        {
+          "room_no": "202",
+          "name": "Department of Mathematics",
+          "type": "Department"
+        },
+
+        {
+          "room_no": "203",
+          "name": "Numerical Analysis Lab",
+          "type": "Laboratory",
+          "department": "Mathematics"
+        },
+
+        {
+          "room_no": "204",
+          "name": "Computer Lab",
+          "type": "Laboratory",
+          "department": "Mathematics"
+        },
+
+        {
+          "room_no": "205",
+          "name": "Library",
+          "type": "Library"
+        }
+
+      ]
+    },
+
+    "central_wing": {
+
+      "locations": [
+
+        {
+          "room_no": "206",
+          "name": "Zoology Museum",
+          "type": "Museum"
+        },
+
+        {
+          "room_no": "207",
+          "name": "Head of Zoology Department",
+          "type": "Office"
+        },
+
+        {
+          "room_no": "208",
+          "name": "Zoology Research Lab",
+          "type": "Laboratory",
+          "department": "Zoology"
+        }
+
+      ]
+    },
+
+    "physics_block": {
+
+      "locations": [
+
+        {
+          "room_no": "209",
+          "name": "Microwave Engineering Lab",
+          "type": "Laboratory",
+          "department": "Physics"
+        },
+
+        {
+          "room_no": "210",
+          "name": "Communication System Lab",
+          "type": "Laboratory",
+          "department": "Physics"
+        },
+
+        {
+          "room_no": "211",
+          "name": "Computational Physics Lab",
+          "type": "Laboratory",
+          "department": "Physics"
+        },
+
+        {
+          "room_no": "212",
+          "name": "Post Graduate Physics Lab",
+          "type": "Laboratory",
+          "department": "Physics"
+        },
+
+        {
+          "room_no": "213",
+          "name": "Applied Physics Lab",
+          "type": "Laboratory",
+          "department": "Physics"
+        }
+
+      ]
+    },
+
+    "north_wing": {
+
+      "locations": [
+
+        {
+          "room_no": "214",
+          "name": "Centre for Scientific Research and Innovation",
+          "type": "Research Centre"
+        },
+
+        {
+          "room_no": "215",
+          "name": "Department of Religious Studies",
+          "type": "Department"
+        }
+
+      ]
+    }
+
+  },
+
+  "facilities": {
+
+    "washrooms": [
+      "Boys Washroom",
+      "Girls Washroom"
+    ],
+
+    "drinking_water": [
+      "Near Lift A",
+      "Near Library"
+    ],
+
+    "fire_exit": [
+      "South Staircase",
+      "North Staircase"
+    ]
+  }
+}

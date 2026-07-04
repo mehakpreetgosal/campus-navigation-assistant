@@ -1,0 +1,166 @@
+{
+  "Emerging Technology Complex": {
+    "id": "BLD-001",
+    "short_name": "ETC",
+    "type": "Academic Building",
+    "description": "Main academic building housing Engineering, Computer Science, Biotechnology, Chemistry, Agriculture, Music, Botany and other departments.",
+    "floors": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor",
+      "Third Floor",
+      "Fourth Floor",
+      "Fifth Floor",
+      "Sixth Floor"
+    ],
+    "entrances": [
+      "Main Entrance",
+      "North Entrance"
+    ],
+    "nearby": [
+      "Right Park",
+      "Main Gate",
+      "Student Car Parking",
+      "Cafeteria"
+    ],
+    "facilities": [
+      "Lift A",
+      "Lift B",
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase",
+      "Boys Washroom",
+      "Girls Washroom",
+      "Drinking Water"
+    ],
+    "departments": [
+      "Computer Science",
+      "Engineering",
+      "Biotechnology",
+      "Chemistry",
+      "Agriculture",
+      "Botany and Environmental Science",
+      "Food Processing",
+      "Music"
+    ]
+  },
+
+  "Bhai Gurdas Academic Block": {
+    "id": "BLD-002",
+    "short_name": "BGAB",
+    "type": "Academic Building",
+    "description": "Academic block for Law, Humanities, Physiotherapy and other departments.",
+    "floors": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor"
+    ],
+    "entrances": [
+      "Main Entrance"
+    ],
+    "nearby": [
+      "Teacher Parking",
+      "University Van Parking",
+      "Left Park",
+      "Cafeteria"
+    ],
+    "facilities": [
+      "Reception",
+      "Library",
+      "Clinic",
+      "Washrooms",
+      "Drinking Water"
+    ],
+    "departments": [
+      "University School of Law",
+      "Physiotherapy",
+      "Humanities"
+    ]
+  },
+
+  "Central Library": {
+    "id": "BLD-003",
+    "short_name": "Library",
+    "type": "Library",
+    "description": "Central library with study areas, reading halls and digital resources.",
+    "floors": [
+      "Ground Floor"
+    ],
+    "nearby": [
+      "Emerging Technology Complex"
+    ],
+    "facilities": [
+      "Reading Hall",
+      "Digital Library",
+      "Reference Section"
+    ]
+  },
+
+  "Cafeteria": {
+    "id": "BLD-004",
+    "type": "Food Court",
+    "description": "University cafeteria serving meals and refreshments.",
+    "nearby": [
+      "Left Park",
+      "Emerging Technology Complex",
+      "Bhai Gurdas Academic Block"
+    ]
+  },
+
+  "Girls Hostel": {
+    "id": "BLD-005",
+    "type": "Hostel",
+    "description": "Residential accommodation for female students.",
+    "nearby": [
+      "Bhai Gurdas Academic Block"
+    ],
+    "facilities": [
+      "Mess",
+      "Common Room",
+      "Security",
+      "Wi-Fi"
+    ]
+  },
+
+  "University Stadium": {
+    "id": "BLD-006",
+    "type": "Sports Complex",
+    "description": "University sports stadium for athletics and outdoor games.",
+    "facilities": [
+      "Football Ground",
+      "Cricket Ground",
+      "Athletics Track",
+      "Seating Area"
+    ]
+  },
+
+  "Administration Block": {
+    "id": "BLD-007",
+    "type": "Administrative Building",
+    "description": "Administrative offices of the university.",
+    "departments": [
+      "Admission Cell",
+      "Registrar Office",
+      "Accounts Office",
+      "Fees Counter"
+    ]
+  },
+
+  "Bank": {
+    "id": "BLD-008",
+    "type": "Bank",
+    "description": "Bank branch providing banking services to students and staff."
+  },
+
+  "Training and Placement Cell": {
+    "id": "BLD-009",
+    "type": "Office",
+    "description": "Office responsible for internships, training and campus placements."
+  },
+
+  "Clinic": {
+    "id": "BLD-010",
+    "type": "Medical Facility",
+    "description": "Campus medical clinic providing first aid and basic healthcare."
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "Library": {
+        "description": "Central library of the university.",
+        "timings": "9 AM - 5 PM",
+        "floor": "Second Floor",
+        "facilities": [
+            "Reading Hall",
+            "Computer Section"
+        ]
+    },
+
+    "Bank": {
+        "description": "University banking facility.",
+        "timings": "10 AM - 4 PM",
+        "floor": "Ground Floor",
+        "facilities": [
+            "Cash Deposit",
+            "ATM",
+            "Account Services"
+        ]
+    },
+
+    "Fee Counter": {
+        "description": "Student fee payment office.",
+        "timings": "9 AM - 4 PM",
+        "floor": "Forth Floor",
+        "facilities": [
+            "Fee Payment",
+            "Receipt Generation"
+        ]
+    },
+
+    "Training and Placement Cell": {
+        "description": "enhance student employability and facilitate successful job placements by organizing campus recruitment drives, career counseling, and industry-focused training",
+        "timings":"9 AM - 5 PM",
+        "floor":"First Floor",
+        "facilities": [
+            "Training and skills development",
+            "Career Counseling",
+            "Internships and Projects"
+        ]
+    },
+
+    "Department of computer science": {
+        "description": "offering quality education in the field of computer science",
+        "timings":"9 AM - 5 PM",
+        "floor":"First Floor",
+        "programs": [
+            "Ph.D",
+            "M.Tech(CSE)",
+            "MCA",
+            "B.Tech.(AI and ML)",
+            "B.Tech.(Data Science)",
+            "B.Tech.(CSE)",
+            "B.Tech.(CSE) /LEET",
+            "BCA",
+            "BCA(Honours)",
+            "PGDCA"
+        ]
+    },
+
+    "Department of Biotechnology": {
+        "description": "The core competence of the Department exists in genomics and proteomics; molecular genetics of human diseases; cell and tissue culture; nutraceutical food and beverages; competence in DNA technology; development of diagnostics, drugs, etc;",
+        "timings":"9 AM - 5 PM",
+        "floor": "Second Floor",
+        "programs": [
+            "B.Tech.(Biotechnology)"
+        ]
+    }
+}

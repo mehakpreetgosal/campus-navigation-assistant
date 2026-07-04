@@ -1,0 +1,61 @@
+{
+  "Lift A": {
+    "id": "LIFT-001",
+    "building": "Emerging Technology Complex",
+    "name": "Lift A",
+    "location": "South Wing",
+    "type": "Passenger Lift",
+    "floors_served": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor",
+      "Third Floor",
+      "Fourth Floor",
+      "Fifth Floor",
+      "Sixth Floor"
+    ],
+    "nearby": [
+      "South Staircase",
+      "Drinking Water Point",
+      "Main Corridor"
+    ],
+    "capacity": 8,
+    "accessible": true,
+    "status": "Operational"
+  },
+
+  "Lift B": {
+    "id": "LIFT-002",
+    "building": "Emerging Technology Complex",
+    "name": "Lift B",
+    "location": "North Wing",
+    "type": "Passenger Lift",
+    "floors_served": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor",
+      "Third Floor",
+      "Fourth Floor",
+      "Fifth Floor",
+      "Sixth Floor"
+    ],
+    "nearby": [
+      "North Staircase",
+      "Main Corridor",
+      "Washrooms"
+    ],
+    "capacity": 8,
+    "accessible": true,
+    "status": "Operational"
+  },
+
+  "Lift Access Rules": {
+    "priority": [
+      "Persons with Disabilities",
+      "Faculty Members",
+      "Visitors",
+      "Students"
+    ],
+    "emergency_use": "Do not use lifts during a fire emergency. Use staircases instead."
+  }
+}

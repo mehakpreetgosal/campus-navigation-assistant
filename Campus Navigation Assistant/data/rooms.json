@@ -1,0 +1,104 @@
+{
+  "101":{
+
+    "name":"Music Lab 1",
+
+    "floor":"First Floor",
+
+    "building":"Emerging Technology Complex",
+
+    "type":"Laboratory",
+
+    "department":"Music",
+
+    "nearby":[
+      "102",
+      "103",
+      "Stairs-South"
+    ]
+  },
+
+  "108":{
+
+    "name":"Web Development Lab",
+
+    "floor":"First Floor",
+
+    "department":"Computer Science",
+
+    "type":"Laboratory",
+
+    "nearby":[
+      "109",
+      "Lift-A"
+    ]
+  },
+
+  "109":{
+
+    "name":"Computer Graphics Lab",
+
+    "floor":"First Floor",
+
+    "department":"Computer Science",
+
+    "type":"Laboratory",
+
+    "nearby":[
+      "108",
+      "110"
+    ]
+  },
+
+  "110":{
+
+    "name":"Research Lab",
+
+    "department":"Computer Science",
+
+    "floor":"First Floor"
+  },
+
+  "111":{
+
+    "name":"TOM Lab",
+
+    "floor":"First Floor"
+  },
+
+  "Admission Cell":{
+
+    "floor":"Ground Floor",
+
+    "type":"Office"
+  },
+
+  "Registrar":{
+
+    "floor":"Fourth Floor",
+
+    "type":"Office"
+  },
+
+  "Biotechnology Lab 1":{
+
+    "floor":"First Floor",
+
+    "type":"Laboratory"
+  },
+
+  "Plant Tissue Culture Lab":{
+
+    "floor":"First Floor"
+  },
+
+  "Botany Lab 1":{
+
+    "floor":"Sixth Floor"
+  },
+
+  "Agronomy and Meteorology Lab":{
+
+    "floor":"Sixth Floor"
+  }
+}

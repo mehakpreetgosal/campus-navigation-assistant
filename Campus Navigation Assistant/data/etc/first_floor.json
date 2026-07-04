@@ -1,0 +1,180 @@
+{
+  "floor_number": 1,
+  "floor_name": "First Floor",
+  "building": "Emerging Technology Complex",
+
+  "description": "Department of Computer Science, Biotechnology Laboratories, ERP Cell, Training & Placement Cell and Music Lab.",
+
+  "vertical_connections": {
+    "stairs": [
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase"
+    ],
+    "lifts": [
+      "Lift A",
+      "Lift B"
+    ]
+  },
+
+  "zones": {
+
+    "west_wing": {
+
+      "locations": [
+
+        {
+          "id": "TPC",
+          "name": "Training and Placement Cell",
+          "type": "Office",
+          "department": "Administration"
+        },
+
+        {
+          "id": "CLASSROOM",
+          "name": "Classroom",
+          "type": "Classroom"
+        }
+
+      ]
+    },
+
+    "south_wing": {
+
+      "locations": [
+
+        {
+          "room_no": "111",
+          "name": "TOM Lab",
+          "type": "Laboratory",
+          "department": "Computer Science"
+        },
+
+        {
+          "room_no": "110",
+          "name": "Research Lab",
+          "type": "Laboratory",
+          "department": "Computer Science"
+        },
+
+        {
+          "room_no": "109",
+          "name": "Computer Graphics Lab",
+          "type": "Laboratory",
+          "department": "Computer Science"
+        },
+
+        {
+          "room_no": "108",
+          "name": "Web Development Lab",
+          "type": "Laboratory",
+          "department": "Computer Science"
+        },
+
+        {
+          "room_no": "104",
+          "name": "Public Relations Office",
+          "type": "Office"
+        },
+
+        {
+          "room_no": "103",
+          "name": "Public Relations Office",
+          "type": "Office"
+        },
+
+        {
+          "room_no": "102",
+          "name": "Multipurpose Hall",
+          "type": "Hall"
+        },
+
+        {
+          "room_no": "101",
+          "name": "Music Lab 1",
+          "type": "Laboratory",
+          "department": "Music"
+        }
+
+      ]
+    },
+
+    "central_wing": {
+
+      "locations": [
+
+        {
+          "name": "Department of Computer Science",
+          "type": "Department"
+        },
+
+        {
+          "name": "HOD Computer Science",
+          "type": "Office"
+        },
+
+        {
+          "name": "ERP Cell",
+          "type": "Office"
+        },
+
+        {
+          "name": "Dr. S. S. Billing Office",
+          "type": "Faculty Office",
+          "department": "Mathematics"
+        }
+
+      ]
+    },
+
+    "circular_block": {
+
+      "locations": [
+
+        {
+          "name": "Biotechnology Lab 1",
+          "type": "Laboratory",
+          "department": "Biotechnology"
+        },
+
+        {
+          "name": "Biotechnology Lab 2",
+          "type": "Laboratory",
+          "department": "Biotechnology"
+        },
+
+        {
+          "name": "Plant Tissue Culture Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "name": "Animal Tissue Culture Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "name": "PhD Research Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "name": "Genetic Engineering Research Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "name": "Nano Chemistry Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "name": "Micro Biology Lab",
+          "type": "Laboratory"
+        }
+
+      ]
+    }
+
+  }
+}

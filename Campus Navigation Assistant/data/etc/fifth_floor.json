@@ -1,0 +1,154 @@
+{
+  "floor_number": 5,
+  "floor_name": "Fifth Floor",
+  "building": "Emerging Technology Complex",
+
+  "description": "Examination Branch, IQAC, Art Gallery, Botany & Environmental Science Department and Agriculture Department.",
+
+  "vertical_connections": {
+    "stairs": [
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase"
+    ],
+    "lifts": [
+      "Lift A",
+      "Lift B"
+    ]
+  },
+
+  "zones": {
+
+    "administration_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-5-501",
+          "room_no": "501",
+          "name": "Examination Branch",
+          "type": "Office",
+          "department": "Examination"
+        },
+
+        {
+          "id": "ETC-5-502",
+          "room_no": "502",
+          "name": "Examination Store",
+          "type": "Store Room"
+        },
+
+        {
+          "id": "ETC-5-503",
+          "room_no": "503",
+          "name": "Supporting Staff Office",
+          "type": "Office"
+        }
+
+      ]
+    },
+
+    "gallery_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-5-504",
+          "room_no": "504",
+          "name": "Harpreet Singh Naaj Gallery",
+          "type": "Gallery"
+        },
+
+        {
+          "id": "ETC-5-505",
+          "room_no": "505",
+          "name": "Art Gallery",
+          "type": "Gallery"
+        }
+
+      ]
+    },
+
+    "iqac_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-5-506",
+          "room_no": "506",
+          "name": "IQAC Office",
+          "type": "Office"
+        },
+
+        {
+          "id": "ETC-5-507",
+          "room_no": "507",
+          "name": "Meeting Room",
+          "type": "Meeting Room"
+        },
+
+        {
+          "id": "ETC-5-508",
+          "room_no": "508",
+          "name": "Member Secretary Office",
+          "type": "Office"
+        }
+
+      ]
+    },
+
+    "department_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-5-509",
+          "room_no": "509",
+          "name": "Department of Botany and Environmental Science",
+          "type": "Department"
+        },
+
+        {
+          "id": "ETC-5-510",
+          "room_no": "510",
+          "name": "Department of Agriculture",
+          "type": "Department"
+        },
+
+        {
+          "id": "ETC-5-511",
+          "room_no": "511",
+          "name": "Agriculture Classroom",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-5-512",
+          "room_no": "512",
+          "name": "Faculty Office",
+          "type": "Faculty Office"
+        }
+
+      ]
+    }
+
+  },
+
+  "facilities": {
+
+    "washrooms": [
+      "Boys Washroom",
+      "Girls Washroom"
+    ],
+
+    "drinking_water": [
+      "Near Lift A",
+      "Near Agriculture Department"
+    ],
+
+    "fire_exit": [
+      "South Staircase",
+      "North Staircase"
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "Ground Floor": {
+    "boys": {
+      "id": "WR-GF-B",
+      "building": "Emerging Technology Complex",
+      "floor": "Ground Floor",
+      "type": "Boys Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open",
+      "nearby": [
+        "Lift B",
+        "Central Corridor"
+      ]
+    },
+    "girls": {
+      "id": "WR-GF-G",
+      "building": "Emerging Technology Complex",
+      "floor": "Ground Floor",
+      "type": "Girls Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open",
+      "nearby": [
+        "Lift B",
+        "Central Corridor"
+      ]
+    }
+  },
+
+  "First Floor": {
+    "boys": {
+      "id": "WR-1-B",
+      "building": "Emerging Technology Complex",
+      "floor": "First Floor",
+      "type": "Boys Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    },
+    "girls": {
+      "id": "WR-1-G",
+      "building": "Emerging Technology Complex",
+      "floor": "First Floor",
+      "type": "Girls Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    }
+  },
+
+  "Second Floor": {
+    "boys": {
+      "id": "WR-2-B",
+      "building": "Emerging Technology Complex",
+      "floor": "Second Floor",
+      "type": "Boys Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    },
+    "girls": {
+      "id": "WR-2-G",
+      "building": "Emerging Technology Complex",
+      "floor": "Second Floor",
+      "type": "Girls Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    }
+  },
+
+  "Third Floor": {
+    "boys": {
+      "id": "WR-3-B",
+      "building": "Emerging Technology Complex",
+      "floor": "Third Floor",
+      "type": "Boys Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    },
+    "girls": {
+      "id": "WR-3-G",
+      "building": "Emerging Technology Complex",
+      "floor": "Third Floor",
+      "type": "Girls Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    }
+  },
+
+  "Fourth Floor": {
+    "boys": {
+      "id": "WR-4-B",
+      "building": "Emerging Technology Complex",
+      "floor": "Fourth Floor",
+      "type": "Boys Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    },
+    "girls": {
+      "id": "WR-4-G",
+      "building": "Emerging Technology Complex",
+      "floor": "Fourth Floor",
+      "type": "Girls Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    }
+  },
+
+  "Fifth Floor": {
+    "boys": {
+      "id": "WR-5-B",
+      "building": "Emerging Technology Complex",
+      "floor": "Fifth Floor",
+      "type": "Boys Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    },
+    "girls": {
+      "id": "WR-5-G",
+      "building": "Emerging Technology Complex",
+      "floor": "Fifth Floor",
+      "type": "Girls Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    }
+  },
+
+  "Sixth Floor": {
+    "boys": {
+      "id": "WR-6-B",
+      "building": "Emerging Technology Complex",
+      "floor": "Sixth Floor",
+      "type": "Boys Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    },
+    "girls": {
+      "id": "WR-6-G",
+      "building": "Emerging Technology Complex",
+      "floor": "Sixth Floor",
+      "type": "Girls Washroom",
+      "location": "Near Lift B",
+      "accessible": true,
+      "status": "Open"
+    }
+  },
+
+  "General Information": {
+    "cleaning_schedule": "Daily",
+    "maintenance_contact": "Campus Maintenance Office",
+    "accessible_facilities": true,
+    "baby_care_room": false
+  }
+}

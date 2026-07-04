@@ -1,0 +1,99 @@
+{
+  "South Staircase": {
+    "id": "STAIR-001",
+    "building": "Emerging Technology Complex",
+    "name": "South Staircase",
+    "location": "South Wing",
+    "type": "Emergency and General Access",
+    "floors_served": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor",
+      "Third Floor",
+      "Fourth Floor",
+      "Fifth Floor",
+      "Sixth Floor"
+    ],
+    "connected_to": [
+      "Lift A",
+      "Main Corridor",
+      "Emergency Exit"
+    ],
+    "accessible": false,
+    "status": "Open"
+  },
+
+  "Central Staircase": {
+    "id": "STAIR-002",
+    "building": "Emerging Technology Complex",
+    "name": "Central Staircase",
+    "location": "Central Wing",
+    "type": "General Access",
+    "floors_served": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor",
+      "Third Floor",
+      "Fourth Floor",
+      "Fifth Floor",
+      "Sixth Floor"
+    ],
+    "connected_to": [
+      "Main Corridor",
+      "Lift A",
+      "Lift B"
+    ],
+    "accessible": false,
+    "status": "Open"
+  },
+
+  "North Staircase": {
+    "id": "STAIR-003",
+    "building": "Emerging Technology Complex",
+    "name": "North Staircase",
+    "location": "North Wing",
+    "type": "Emergency and General Access",
+    "floors_served": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor",
+      "Third Floor",
+      "Fourth Floor",
+      "Fifth Floor",
+      "Sixth Floor"
+    ],
+    "connected_to": [
+      "Lift B",
+      "Main Corridor",
+      "Emergency Exit"
+    ],
+    "accessible": false,
+    "status": "Open"
+  },
+
+  "Ground Floor Exit Stair": {
+    "id": "STAIR-004",
+    "building": "Emerging Technology Complex",
+    "name": "Ground Floor Exit Stair",
+    "location": "Ground Floor",
+    "type": "Emergency Exit",
+    "floors_served": [
+      "Ground Floor"
+    ],
+    "connected_to": [
+      "Main Entrance",
+      "Outside Campus"
+    ],
+    "accessible": false,
+    "status": "Emergency Use"
+  },
+
+  "Safety Information": {
+    "fire_emergency": "Use the nearest staircase during emergencies. Do not use lifts.",
+    "evacuation_priority": [
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase"
+    ]
+  }
+}

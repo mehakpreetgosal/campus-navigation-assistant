@@ -1,0 +1,70 @@
+{
+  "South Staircase": [
+    "ETC-3-301",
+    "Lift A"
+  ],
+
+  "ETC-3-301": [
+    "ETC-3-302"
+  ],
+
+  "ETC-3-302": [
+    "ETC-3-303"
+  ],
+
+  "ETC-3-303": [
+    "ETC-3-304"
+  ],
+
+  "ETC-3-304": [
+    "Central Staircase"
+  ],
+
+  "Central Staircase": [
+    "ETC-3-305",
+    "Lift B"
+  ],
+
+  "ETC-3-305": [
+    "ETC-3-306"
+  ],
+
+  "ETC-3-306": [
+    "ETC-3-307"
+  ],
+
+  "ETC-3-307": [
+    "ETC-3-321"
+  ],
+
+  "ETC-3-321": [
+    "ETC-3-322"
+  ],
+
+  "ETC-3-322": [
+    "ETC-3-323"
+  ],
+
+  "ETC-3-323": [
+    "ETC-3-324"
+  ],
+
+  "ETC-3-324": [
+    "ETC-3-325"
+  ],
+
+  "ETC-3-325": [
+    "ETC-3-GS",
+    "North Staircase"
+  ],
+
+  "Lift A": [
+    "Second Floor",
+    "Fourth Floor"
+  ],
+
+  "Lift B": [
+    "Second Floor",
+    "Fourth Floor"
+  ]
+}

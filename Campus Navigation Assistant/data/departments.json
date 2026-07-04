@@ -1,0 +1,203 @@
+{
+  "Computer Science": {
+    "id": "DEP-001",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Ground Floor",
+      "First Floor"
+    ],
+    "head": "Head of Department",
+    "description": "Department offering undergraduate and postgraduate programs in Computer Science and Engineering.",
+    "facilities": [
+      "Faculty Offices",
+      "Computer Laboratories",
+      "Seminar Room",
+      "Project Lab"
+    ]
+  },
+
+  "Engineering": {
+    "id": "DEP-002",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Ground Floor",
+      "First Floor",
+      "Second Floor"
+    ],
+    "description": "Engineering department with classrooms and laboratories.",
+    "facilities": [
+      "Classrooms",
+      "Engineering Labs",
+      "Faculty Offices"
+    ]
+  },
+
+  "Biotechnology": {
+    "id": "DEP-003",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Second Floor",
+      "Third Floor"
+    ],
+    "description": "Department of Biotechnology with teaching and research laboratories.",
+    "facilities": [
+      "Biotechnology Labs",
+      "Research Lab",
+      "Faculty Rooms"
+    ]
+  },
+
+  "Chemistry": {
+    "id": "DEP-004",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Fourth Floor"
+    ],
+    "description": "Department of Chemistry with practical laboratories.",
+    "facilities": [
+      "Organic Chemistry Lab",
+      "Inorganic Chemistry Lab",
+      "Analytical Chemistry Lab",
+      "Instrument Room"
+    ]
+  },
+
+  "Agriculture": {
+    "id": "DEP-005",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Sixth Floor"
+    ],
+    "description": "Department of Agriculture with classrooms and laboratories.",
+    "facilities": [
+      "Agriculture Classrooms",
+      "Plant Health Clinic",
+      "Agronomy Lab",
+      "Horticulture Lab"
+    ]
+  },
+
+  "Botany and Environmental Science": {
+    "id": "DEP-006",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Sixth Floor"
+    ],
+    "description": "Department focusing on Botany and Environmental Science.",
+    "facilities": [
+      "Botany Lab",
+      "Zoology Lab",
+      "Soil Research Lab",
+      "Plant Breeding Lab"
+    ]
+  },
+
+  "Food Processing": {
+    "id": "DEP-007",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Fifth Floor",
+      "Sixth Floor"
+    ],
+    "description": "Department of Food Processing and Technology.",
+    "facilities": [
+      "Food Processing Lab",
+      "Processing Classroom",
+      "Food Analysis Lab"
+    ]
+  },
+
+  "Music": {
+    "id": "DEP-008",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Sixth Floor"
+    ],
+    "description": "Department of Music.",
+    "facilities": [
+      "Music Room",
+      "Practice Room"
+    ]
+  },
+
+  "University School of Law": {
+    "id": "DEP-009",
+    "building": "Bhai Gurdas Academic Block",
+    "floors": [
+      "Ground Floor",
+      "First Floor"
+    ],
+    "description": "Department offering legal education and moot court facilities.",
+    "facilities": [
+      "Courtroom",
+      "Faculty Offices",
+      "Law Library"
+    ]
+  },
+
+  "Physiotherapy": {
+    "id": "DEP-010",
+    "building": "Bhai Gurdas Academic Block",
+    "floors": [
+      "Ground Floor",
+      "First Floor"
+    ],
+    "description": "Department of Physiotherapy.",
+    "facilities": [
+      "Physiotherapy Lab",
+      "Clinic",
+      "Demonstration Room"
+    ]
+  },
+
+  "Humanities": {
+    "id": "DEP-011",
+    "building": "Bhai Gurdas Academic Block",
+    "floors": [
+      "Ground Floor",
+      "First Floor"
+    ],
+    "description": "Department of Humanities and Social Sciences.",
+    "facilities": [
+      "Faculty Offices",
+      "Seminar Room",
+      "Classrooms"
+    ]
+  },
+
+  "Admission Cell": {
+    "id": "DEP-012",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Ground Floor"
+    ],
+    "description": "Handles admissions, counselling and student enquiries."
+  },
+
+  "Training and Placement Cell": {
+    "id": "DEP-013",
+    "building": "Emerging Technology Complex",
+    "floors": [
+      "Ground Floor"
+    ],
+    "description": "Coordinates internships, placements and industry interactions."
+  },
+
+  "Central Library": {
+    "id": "DEP-014",
+    "building": "Central Library",
+    "floors": [
+      "Ground Floor"
+    ],
+    "description": "University library with books, journals and digital resources."
+  },
+
+  "Accounts and Fees": {
+    "id": "DEP-015",
+    "building": "Administration Block",
+    "floors": [
+      "Ground Floor"
+    ],
+    "description": "Handles fee collection and financial services for students."
+  }
+}

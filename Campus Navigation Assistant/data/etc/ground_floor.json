@@ -1,0 +1,240 @@
+{
+  "floor_name": "Ground Floor",
+
+  "building": "Emerging Technology Complex",
+
+  "main_entrance": {
+    "name": "Main Entrance",
+    "connected_to": [
+      "Reception Corridor",
+      "Admission Cell",
+      "Electrical Room"
+    ]
+  },
+
+  "second_entrance": {
+    "name": "Second Entrance",
+    "connected_to": [
+      "Chemistry Lab",
+      "Circular Corridor"
+    ]
+  },
+
+  "rooms": {
+
+    "Admission Cell": {
+      "type": "Office",
+      "department": "Administration",
+      "nearby": [
+        "Admission Counselling Cell",
+        "Main Entrance"
+      ]
+    },
+
+    "Admission Counselling Cell": {
+      "type": "Office",
+      "department": "Administration",
+      "nearby": [
+        "Admission Cell",
+        "Media Room"
+      ]
+    },
+
+    "Media Room": {
+      "type": "Office",
+      "description": "Space for Media and Press",
+      "nearby": [
+        "Vice Chancellor Office"
+      ]
+    },
+
+    "Vice Chancellor Office": {
+      "type": "Office",
+      "nearby": [
+        "Syndicate Room"
+      ]
+    },
+
+    "Syndicate Room": {
+      "type": "Conference Room",
+      "nearby": [
+        "Senate Hall"
+      ]
+    },
+
+    "Senate Hall": {
+      "type": "Hall",
+      "nearby": [
+        "Computer Centre Lab 2",
+        "Computer Centre Lab 3"
+      ]
+    },
+
+    "Electrical Room": {
+      "type": "Utility Room",
+      "nearby": [
+        "Seminar Room"
+      ]
+    },
+
+    "Seminar Room": {
+      "type": "Seminar Hall",
+      "nearby": [
+        "Electrical Room",
+        "Washrooms"
+      ]
+    },
+
+    "Stationary Shop": {
+      "type": "Shop",
+      "nearby": [
+        "Scholarship Cell"
+      ]
+    },
+
+    "Scholarship Cell": {
+      "type": "Office",
+      "nearby": [
+        "SBI Bank"
+      ]
+    },
+
+    "SBI Bank": {
+      "type": "Bank",
+      "nearby": [
+        "Chemistry Lab"
+      ]
+    },
+
+    "Chemistry Lab": {
+      "type": "Laboratory",
+      "department": "Chemistry",
+      "nearby": [
+        "Research Lab"
+      ]
+    },
+
+    "Research Lab": {
+      "type": "Laboratory",
+      "department": "Food Processing",
+      "nearby": [
+        "Food Processing Technology Chemistry Lab"
+      ]
+    },
+
+    "Food Processing Technology Chemistry Lab": {
+      "type": "Laboratory",
+      "department": "Food Processing Technology",
+      "nearby": [
+        "Department of Food Processing Technology"
+      ]
+    },
+
+    "Department of Food Processing Technology": {
+      "type": "Department",
+      "nearby": [
+        "Students Grievance Redressal Cell"
+      ]
+    },
+
+    "Students Grievance Redressal Cell": {
+      "type": "Office",
+      "nearby": [
+        "University Alumni Association"
+      ]
+    },
+
+    "University Alumni Association": {
+      "type": "Office",
+      "nearby": [
+        "Central Garden"
+      ]
+    },
+
+    "Computer Centre Lab 2": {
+      "type": "Laboratory",
+      "department": "Computer Centre",
+      "nearby": [
+        "Computer Centre Lab 3"
+      ]
+    },
+
+    "Computer Centre Lab 3": {
+      "type": "Laboratory",
+      "department": "Computer Centre",
+      "nearby": [
+        "Computer Centre Lab 2"
+      ]
+    }
+
+  },
+
+  "stairs": {
+
+    "South Staircase": {
+      "connects_to": [
+        "First Floor"
+      ]
+    },
+
+    "North Staircase": {
+      "connects_to": [
+        "First Floor"
+      ]
+    }
+
+  },
+
+  "lifts": {
+
+    "Lift A": {
+      "connects_to": [
+        "First Floor",
+        "Second Floor",
+        "Third Floor",
+        "Fourth Floor",
+        "Fifth Floor",
+        "Sixth Floor"
+      ]
+    },
+
+    "Lift B": {
+      "connects_to": [
+        "First Floor",
+        "Second Floor",
+        "Third Floor",
+        "Fourth Floor",
+        "Fifth Floor",
+        "Sixth Floor"
+      ]
+    }
+
+  },
+
+  "washrooms": {
+
+    "Boys Washroom": {
+      "nearby": [
+        "Seminar Room"
+      ]
+    },
+
+    "Girls Washroom": {
+      "nearby": [
+        "Seminar Room"
+      ]
+    }
+
+  },
+
+  "landmarks": {
+
+    "Central Garden": {},
+
+    "Bridge": {},
+
+    "Open Courtyard": {}
+
+  }
+
+}

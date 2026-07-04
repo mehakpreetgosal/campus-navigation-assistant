@@ -1,0 +1,37 @@
+{
+  "Main Gate":[
+    "Main Entrance"
+  ],
+
+  "Main Entrance":[
+    "Reception",
+    "Lift-A",
+    "Stairs-S1"
+  ],
+
+  "Lift-A":[
+    "Ground Floor",
+    "First Floor",
+    "Second Floor",
+    "Third Floor",
+    "Fourth Floor",
+    "Fifth Floor",
+    "Sixth Floor"
+  ],
+
+  "Room 108":[
+    "Room 109",
+    "Room 107",
+    "Lift-A"
+  ],
+
+  "Room 109":[
+    "Room 108",
+    "Room 110"
+  ],
+
+  "Registrar":[
+    "Accounts Branch",
+    "Dean Academic Affairs"
+  ]
+}

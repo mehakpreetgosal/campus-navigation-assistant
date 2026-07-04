@@ -1,0 +1,157 @@
+{
+  "floor_number": 4,
+  "floor_name": "Fourth Floor",
+  "building": "Emerging Technology Complex",
+
+  "description": "Administrative offices, Chemistry Department laboratories, Gymnasium Hall and English Language Lab.",
+
+  "vertical_connections": {
+    "stairs": [
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase"
+    ],
+    "lifts": [
+      "Lift A",
+      "Lift B"
+    ]
+  },
+
+  "zones": {
+
+    "administration_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-4-401",
+          "room_no": "401",
+          "name": "Registrar Office",
+          "type": "Office",
+          "department": "Administration"
+        },
+
+        {
+          "id": "ETC-4-402",
+          "room_no": "402",
+          "name": "Dean Academic Affairs",
+          "type": "Office",
+          "department": "Administration"
+        },
+
+        {
+          "id": "ETC-4-403",
+          "room_no": "403",
+          "name": "Accounts Branch",
+          "type": "Office"
+        },
+
+        {
+          "id": "ETC-4-404",
+          "room_no": "404",
+          "name": "Fees Counter",
+          "type": "Office"
+        }
+
+      ]
+    },
+
+    "chemistry_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-4-405",
+          "room_no": "405",
+          "name": "Inorganic Chemistry Lab",
+          "type": "Laboratory",
+          "department": "Chemistry"
+        },
+
+        {
+          "id": "ETC-4-406",
+          "room_no": "406",
+          "name": "Organic Chemistry Lab",
+          "type": "Laboratory",
+          "department": "Chemistry"
+        },
+
+        {
+          "id": "ETC-4-407",
+          "room_no": "407",
+          "name": "Physical Chemistry Lab",
+          "type": "Laboratory",
+          "department": "Chemistry"
+        },
+
+        {
+          "id": "ETC-4-408",
+          "room_no": "408",
+          "name": "Analytical Chemistry Lab",
+          "type": "Laboratory",
+          "department": "Chemistry"
+        },
+
+        {
+          "id": "ETC-4-409",
+          "room_no": "409",
+          "name": "Spectroscopy Lab",
+          "type": "Laboratory",
+          "department": "Chemistry"
+        }
+
+      ]
+    },
+
+    "language_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-4-410",
+          "room_no": "410",
+          "name": "English Language Lab",
+          "type": "Laboratory",
+          "department": "English"
+        }
+
+      ]
+    },
+
+    "sports_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-4-GYM",
+          "name": "Gymnasium Hall",
+          "type": "Sports Facility"
+        }
+
+      ]
+    }
+
+  },
+
+  "facilities": {
+
+    "washrooms": [
+      "Boys Washroom",
+      "Girls Washroom"
+    ],
+
+    "drinking_water": [
+      "Near Lift A",
+      "Near Gymnasium Hall"
+    ],
+
+    "fire_exit": [
+      "South Staircase",
+      "North Staircase"
+    ],
+
+    "waiting_area": [
+      "Outside Registrar Office"
+    ]
+  }
+}

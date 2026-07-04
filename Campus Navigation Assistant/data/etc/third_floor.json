@@ -1,0 +1,150 @@
+{
+  "floor_number": 3,
+  "floor_name": "Third Floor",
+  "building": "Emerging Technology Complex",
+
+  "description": "Department of English, Department of Physics, research facilities, classrooms and Gurudwara Sahib.",
+
+  "vertical_connections": {
+    "stairs": [
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase"
+    ],
+    "lifts": [
+      "Lift A",
+      "Lift B"
+    ]
+  },
+
+  "zones": {
+
+    "south_wing": {
+
+      "locations": [
+
+        {
+          "id": "ETC-3-301",
+          "room_no": "301",
+          "name": "Department of English",
+          "type": "Department"
+        },
+
+        {
+          "id": "ETC-3-302",
+          "room_no": "302",
+          "name": "Centre for Literature and Film Studies",
+          "type": "Research Centre"
+        },
+
+        {
+          "id": "ETC-3-303",
+          "room_no": "303",
+          "name": "Faculty Cabin 1",
+          "type": "Faculty Office"
+        },
+
+        {
+          "id": "ETC-3-304",
+          "room_no": "304",
+          "name": "Faculty Cabin 2",
+          "type": "Faculty Office"
+        }
+      ]
+    },
+
+    "central_wing": {
+
+      "locations": [
+
+        {
+          "id": "ETC-3-305",
+          "room_no": "305",
+          "name": "Department of Physics",
+          "type": "Department"
+        },
+
+        {
+          "id": "ETC-3-306",
+          "room_no": "306",
+          "name": "Network Security Lab",
+          "type": "Laboratory",
+          "department": "Computer Science"
+        },
+
+        {
+          "id": "ETC-3-307",
+          "room_no": "307",
+          "name": "Server Room",
+          "type": "Server Room"
+        }
+      ]
+    },
+
+    "north_wing": {
+
+      "locations": [
+
+        {
+          "id": "ETC-3-321",
+          "room_no": "321",
+          "name": "Classroom 321",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-3-322",
+          "room_no": "322",
+          "name": "Classroom 322",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-3-323",
+          "room_no": "323",
+          "name": "Classroom 323",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-3-324",
+          "room_no": "324",
+          "name": "Classroom 324",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-3-325",
+          "room_no": "325",
+          "name": "Classroom 325",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-3-GS",
+          "name": "Gurudwara Sahib",
+          "type": "Prayer Hall"
+        }
+      ]
+    }
+
+  },
+
+  "facilities": {
+
+    "washrooms": [
+      "Boys Washroom",
+      "Girls Washroom"
+    ],
+
+    "drinking_water": [
+      "Near Lift A",
+      "Near Classroom 323"
+    ],
+
+    "fire_exit": [
+      "South Staircase",
+      "North Staircase"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Main Entrance": [
+    "Admission Cell",
+    "Reception Corridor"
+  ],
+
+  "Admission Cell": [
+    "Admission Counselling Cell",
+    "Main Entrance"
+  ],
+
+  "Admission Counselling Cell": [
+    "Media Room",
+    "Admission Cell"
+  ],
+
+  "Media Room": [
+    "Vice Chancellor Office"
+  ],
+
+  "Vice Chancellor Office": [
+    "Syndicate Room"
+  ],
+
+  "Syndicate Room": [
+    "Senate Hall"
+  ],
+
+  "Senate Hall": [
+    "South Staircase",
+    "Computer Centre Lab 2"
+  ],
+
+  "Computer Centre Lab 2": [
+    "Computer Centre Lab 3"
+  ],
+
+  "Computer Centre Lab 3": [
+    "South Staircase"
+  ],
+
+  "Electrical Room": [
+    "Seminar Room"
+  ],
+
+  "Seminar Room": [
+    "Lift A",
+    "Boys Washroom",
+    "Girls Washroom"
+  ],
+
+  "Lift A": [
+    "Lift B",
+    "North Staircase"
+  ],
+
+  "North Staircase": [
+    "First Floor"
+  ],
+
+  "Lift B": [
+    "First Floor"
+  ],
+
+  "Stationary Shop": [
+    "Scholarship Cell"
+  ],
+
+  "Scholarship Cell": [
+    "SBI Bank"
+  ],
+
+  "SBI Bank": [
+    "Chemistry Lab"
+  ],
+
+  "Chemistry Lab": [
+    "Research Lab"
+  ],
+
+  "Research Lab": [
+    "Food Processing Technology Chemistry Lab"
+  ],
+
+  "Food Processing Technology Chemistry Lab": [
+    "Department of Food Processing Technology"
+  ],
+
+  "Department of Food Processing Technology": [
+    "Students Grievance Redressal Cell"
+  ],
+
+  "Students Grievance Redressal Cell": [
+    "University Alumni Association"
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "floor_number": 6,
+  "floor_name": "Sixth Floor",
+  "building": "Emerging Technology Complex",
+
+  "description": "Department of Music, Agriculture, Botany & Environmental Science and advanced laboratories.",
+
+  "vertical_connections": {
+    "stairs": [
+      "South Staircase",
+      "Central Staircase",
+      "North Staircase"
+    ],
+    "lifts": [
+      "Lift A",
+      "Lift B"
+    ]
+  },
+
+  "zones": {
+
+    "music_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-6-601",
+          "room_no": "601",
+          "name": "Department of Music",
+          "type": "Department"
+        },
+
+        {
+          "id": "ETC-6-602",
+          "room_no": "602",
+          "name": "Music Room",
+          "type": "Laboratory"
+        }
+
+      ]
+
+    },
+
+    "agriculture_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-6-603",
+          "room_no": "603",
+          "name": "Agriculture Store",
+          "type": "Store Room"
+        },
+
+        {
+          "id": "ETC-6-604",
+          "room_no": "604",
+          "name": "Agriculture Classroom 1",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-6-605",
+          "room_no": "605",
+          "name": "Agriculture Classroom 2",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-6-606",
+          "room_no": "606",
+          "name": "Agriculture Classroom 3",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-6-607",
+          "room_no": "607",
+          "name": "Agriculture Classroom 4",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-6-608",
+          "room_no": "608",
+          "name": "Agriculture Classroom 5",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-6-609",
+          "room_no": "609",
+          "name": "Plant Health Clinic",
+          "type": "Clinic"
+        }
+
+      ]
+
+    },
+
+    "food_processing_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-6-610",
+          "room_no": "610",
+          "name": "Food Processing Classroom 2",
+          "type": "Classroom"
+        },
+
+        {
+          "id": "ETC-6-611",
+          "room_no": "611",
+          "name": "Food Processing Classroom 3",
+          "type": "Classroom"
+        }
+
+      ]
+
+    },
+
+    "botany_block": {
+
+      "locations": [
+
+        {
+          "id": "ETC-6-612",
+          "room_no": "612",
+          "name": "Department of Botany and Environmental Science",
+          "type": "Department"
+        },
+
+        {
+          "id": "ETC-6-613",
+          "room_no": "613",
+          "name": "Botany Lab 1",
+          "type": "Laboratory"
+        },
+
+        {
+          "id": "ETC-6-614",
+          "room_no": "614",
+          "name": "Agronomy and Meteorology Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "id": "ETC-6-615",
+          "room_no": "615",
+          "name": "Plant Breeding and Genetics Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "id": "ETC-6-616",
+          "room_no": "616",
+          "name": "Horticulture Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "id": "ETC-6-617",
+          "room_no": "617",
+          "name": "Zoology Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "id": "ETC-6-618",
+          "room_no": "618",
+          "name": "Botany Lab",
+          "type": "Laboratory"
+        },
+
+        {
+          "id": "ETC-6-619",
+          "room_no": "619",
+          "name": "Soil Research Laboratory",
+          "type": "Laboratory"
+        }
+
+      ]
+
+    }
+
+  },
+
+  "facilities": {
+
+    "washrooms": [
+      "Boys Washroom",
+      "Girls Washroom"
+    ],
+
+    "drinking_water": [
+      "Near Lift A",
+      "Near Department of Music",
+      "Near Agriculture Classrooms"
+    ],
+
+    "fire_exit": [
+      "South Staircase",
+      "North Staircase"
+    ]
+  }
+}

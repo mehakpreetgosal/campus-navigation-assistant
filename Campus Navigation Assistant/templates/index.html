@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Navigation Assistant</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ===================================================== -->
+<!-- NAVBAR -->
+<!-- ===================================================== -->
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <img src="{{ url_for('static', filename='images/logo.png') }}"
+             alt="University Logo">
+
+        <span>Campus Navigation Assistant</span>
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#features">Features</a></li>
+
+        <li><a href="#interactive-map">Map</a></li>
+
+        <li><a href="#building-section">Buildings</a></li>
+
+        <li><a href="#about">About</a></li>
+
+    </ul>
+
+    <div class="nav-right">
+
+        <button id="themeToggle">
+
+            <i class="fa-solid fa-moon"></i>
+
+        </button>
+
+        <div class="menu-btn">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- ===================================================== -->
+<!-- HERO SECTION -->
+<!-- ===================================================== -->
+
+<header id="home"
+        class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>
+
+            Smart Campus Navigation Assistant
+
+        </h1>
+
+        <p>
+
+            Navigate your university with ease using
+            intelligent route planning, AI chatbot,
+            crowd prediction and an interactive campus map.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#features"
+               class="btn primary-btn">
+
+                Explore Features
+
+            </a>
+
+            <a href="#interactive-map"
+               class="btn secondary-btn">
+
+                Open Campus Map
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="wave">
+
+        <svg viewBox="0 0 1440 320">
+
+            <path fill="#ffffff"
+                  fill-opacity="1"
+                  d="M0,128L48,149.3C96,171,192,213,288,202.7C384,192,480,128,576,122.7C672,117,768,171,864,192C960,213,1056,203,1152,170.7C1248,139,1344,85,1392,58.7L1440,32L1440,320L0,320Z">
+            </path>
+
+        </svg>
+
+    </div>
+
+</header>
+
+<!-- ===================================================== -->
+<!-- QUICK FEATURES -->
+<!-- ===================================================== -->
+
+<section class="quick-features">
+
+    <div class="circle">
+
+        <i class="fa-solid fa-map-location-dot"></i>
+
+    </div>
+
+    <div class="circle">
+
+        <i class="fa-solid fa-robot"></i>
+
+    </div>
+
+    <div class="circle">
+
+        <i class="fa-solid fa-chart-line"></i>
+
+    </div>
+
+    <div class="circle">
+
+        <i class="fa-solid fa-building"></i>
+
+    </div>
+
+    <div class="circle">
+
+        <i class="fa-solid fa-location-dot"></i>
+
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- FEATURES -->
+<!-- ===================================================== -->
+
+<section id="features"
+         class="features-section">
+
+    <div class="section-title">
+
+        <h2>
+
+            Intelligent Campus Features
+
+        </h2>
+
+        <p>
+
+            Everything you need to navigate your campus efficiently.
+
+        </p>
+
+    </div>
+
+    <div class="feature-grid">
+
+        <!-- Crowd Prediction -->
+
+        <div class="feature-card">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+            </div>
+
+            <h3>
+
+                Crowd Prediction
+
+            </h3>
+
+            <p>
+
+                Predict crowd levels at important campus
+                locations before visiting.
+
+            </p>
+
+            <button id="crowdCardBtn">
+
+                View Prediction
+
+            </button>
+
+        </div>
+
+        <!-- Navigation -->
+
+        <div class="feature-card">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-route"></i>
+
+            </div>
+
+            <h3>
+
+                Smart Navigation
+
+            </h3>
+
+            <p>
+
+                Get directions from the Main Gate
+                to any campus building.
+
+            </p>
+
+            <button id="navigationCardBtn">
+
+                Navigate
+
+            </button>
+
+        </div>
+
+        <!-- Chatbot -->
+
+        <div class="feature-card chatbot-card">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-comments"></i>
+
+            </div>
+
+            <h3>
+
+                AI Campus Assistant
+
+            </h3>
+
+            <p>
+
+                Ask questions about buildings,
+                facilities, departments and services.
+
+            </p>
+
+            <button id="chatCardBtn">
+
+                Start Chat
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="dashboard-section">
+
+    <div class="dashboard-grid">
+
+         <!-- ========================================= -->
+<!-- Crowd Prediction -->
+<!-- ========================================= -->
+
+<div class="dashboard-card crowd-card">
+
+    <div class="card-header">
+
+        <h2>
+            <i class="fa-solid fa-chart-line"></i>
+            AI Crowd Prediction
+        </h2>
+
+        <p>
+            Predict the expected crowd level before visiting any campus facility.
+        </p>
+
+    </div>
+
+    <div class="card-body">
+
+        <!-- Location -->
+
+        <div class="input-group">
+
+            <label for="crowdLocation">
+
+                <i class="fa-solid fa-location-dot"></i>
+                Location
+
+            </label>
+
+            <select id="crowdLocation">
+
+                <option value="Library">Library</option>
+
+                <option value="Cafeteria">Cafeteria</option>
+
+                <option value="Lab">Lab</option>
+
+                <option value="Bank">Bank</option>
+
+                <option value="Admission Cell">Admission Cell</option>
+
+                <option value="Fee Counter">Fee Counter</option>
+
+            </select>
+
+        </div>
+
+        <!-- Month -->
+
+        <div class="input-group">
+
+            <label for="crowdMonth">
+
+                <i class="fa-solid fa-calendar"></i>
+                Month
+
+            </label>
+
+            <select id="crowdMonth">
+
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+
+            </select>
+
+        </div>
+
+        <!-- Day -->
+
+        <div class="input-group">
+
+            <label for="crowdDay">
+
+                <i class="fa-solid fa-calendar-week"></i>
+                Day
+
+            </label>
+
+            <select id="crowdDay">
+
+                <option value="1">Monday</option>
+                <option value="2">Tuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>
+                <option value="6">Saturday</option>
+                <option value="7">Sunday</option>
+
+            </select>
+
+        </div>
+
+        <!-- Time -->
+
+        <div class="input-group">
+
+            <label for="crowdTime">
+
+                <i class="fa-solid fa-clock"></i>
+                Time
+
+            </label>
+
+            <select id="crowdTime">
+
+                <option value="9">09:00 AM</option>
+                <option value="10">10:00 AM</option>
+                <option value="11">11:00 AM</option>
+                <option value="12">12:00 PM</option>
+                <option value="13">01:00 PM</option>
+                <option value="14">02:00 PM</option>
+                <option value="15">03:00 PM</option>
+                <option value="16">04:00 PM</option>
+                <option value="17">05:00 PM</option>
+
+            </select>
+
+        </div>
+
+        <!-- Predict Button -->
+
+        <button
+            class="green-btn crowd-btn"
+            id="predictCrowdBtn">
+
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+            Predict Crowd
+
+        </button>
+
+        <!-- Result -->
+
+        <div
+            id="crowdResult"
+            class="result-box">
+
+            <h3>Prediction Result</h3>
+
+            <p>
+
+                Select the details above and click
+                <strong>Predict Crowd</strong>.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+       <!-- ============================================= -->
+<!-- Crowd Prediction Graph -->
+<!-- ============================================= -->
+
+<section class="graph-section">
+
+    <div class="section-title">
+
+        <h2>
+
+            Crowd Trend Throughout the Day
+
+        </h2>
+
+        <p>
+
+            Estimated crowd level from
+            9:00 AM to 5:00 PM.
+
+        </p>
+
+    </div>
+
+    <div class="graph-container">
+
+        <canvas
+            id="crowdChart"
+            height="120">
+
+        </canvas>
+
+    </div>
+
+</section>
+
+        
+
+        <!-- ========================================= -->
+        <!-- Chatbot -->
+        <!-- ========================================= -->
+
+        <div class="dashboard-card chatbot-panel">
+
+            <div class="card-header">
+
+                <h2>
+
+                    <i class="fa-solid fa-robot"></i>
+
+                    AI Campus Assistant
+
+                </h2>
+
+            </div>
+
+            <div
+                id="chatMessages"
+                class="chat-messages">
+
+                <div class="bot-message">
+
+                    👋 Hello!
+
+                    Ask me about
+
+                    buildings,
+
+                    departments,
+
+                    navigation,
+
+                    facilities,
+
+                    or crowd information.
+
+                </div>
+
+            </div>
+
+            <div class="chat-input">
+
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Ask something...">
+
+                <button
+                    id="sendBtn">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ============================================= -->
+<!-- Crowd Graph -->
+<!-- ============================================= -->
+
+<section
+    class="graph-section">
+
+    <div class="section-title">
+
+        <h2>
+
+            Crowd Analysis
+
+        </h2>
+
+        <p>
+
+            Estimated crowd variation
+            throughout the day.
+
+        </p>
+
+    </div>
+
+    <div class="graph-container">
+
+        <canvas
+            id="crowdChart">
+
+        </canvas>
+
+    </div>
+
+</section>
+
+<!-- ============================================= -->
+<!-- Interactive Map -->
+<!-- ============================================= -->
+
+<section
+    id="interactive-map"
+    class="map-section">
+
+    <div class="section-title">
+
+        <h2>
+
+            Interactive Campus Map
+
+        </h2>
+
+        <p>
+
+            Click any building to
+            view detailed information.
+
+        </p>
+
+    </div>
+
+    <div class="map-controls">
+
+        <button
+            class="map-btn"
+            data-building="Library">
+
+            Library
+
+        </button>
+
+        <button
+            class="map-btn"
+            data-building="Cafeteria">
+
+            Cafeteria
+
+        </button>
+
+        <button
+            class="map-btn"
+            data-building="Girls Hostel">
+
+            Girls Hostel
+
+        </button>
+
+        <button
+            class="map-btn"
+            data-building="Bhai Gurdas Academic Block">
+
+            Bhai Gurdas Block
+
+        </button>
+
+        <button
+            class="map-btn"
+            data-building="Emerging Technology Complex">
+
+            ETC
+
+        </button>
+
+    </div>
+
+    <div class="interactive-map-container">
+
+        <div
+            id="campusMap"
+            class="campus-map">
+
+            <img
+                src="{{ url_for('static', filename='images/hero-campus.jpg') }}"
+                alt="Campus Map">
+
+        </div>
+
+        <div
+            id="buildingInfo"
+            class="building-panel">
+
+            <h3>
+
+                Building Information
+
+            </h3>
+
+            <p>
+
+                Click a building button
+                to load its details.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ============================================= -->
+<!-- Building Information -->
+<!-- ============================================= -->
+
+<section
+    id="building-section"
+    class="building-section">
+
+    <div class="building-container">
+
+        <div class="building-left">
+
+            <h2>
+
+                Campus Building Information
+
+            </h2>
+
+            <p>
+
+                Explore detailed information
+                about every building,
+                department,
+                facility
+                and campus service.
+
+            </p>
+
+            <ul>
+
+                <li>
+
+                    Academic Blocks
+
+                </li>
+
+                <li>
+
+                    Departments
+
+                </li>
+
+                <li>
+
+                    Laboratories
+
+                </li>
+
+                <li>
+
+                    Library
+
+                </li>
+
+                <li>
+
+                    Hostels
+
+                </li>
+
+                <li>
+
+                    Cafeteria
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div
+            class="building-right">
+
+            <img
+                src="{{ url_for('static', filename='images/university.jpg') }}"
+                alt="University">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ============================================= -->
+<!-- Google Map -->
+<!-- ============================================= -->
+
+<section
+    class="google-map-section">
+
+    <div class="section-title">
+
+        <h2>
+
+            University Location
+
+        </h2>
+
+    </div>
+
+    <div class="google-map">
+
+        <iframe
+
+            src="https://www.google.com/maps?q=Sri+Guru+Granth+Sahib+World+University&output=embed"
+
+            allowfullscreen
+
+            loading="lazy">
+
+        </iframe>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+
+<footer id="about" class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <img
+                src="{{ url_for('static', filename='images/logo.png') }}"
+                alt="University Logo"
+                class="footer-logo">
+
+            <h3>
+                Campus Navigation Assistant
+            </h3>
+
+            <p>
+
+                An AI-powered platform developed to help
+                students, faculty, and visitors navigate
+                Sri Guru Granth Sahib World University
+                efficiently.
+
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>
+
+                Quick Links
+
+            </h3>
+
+            <ul>
+
+                <li>
+
+                    <a href="#home">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#features">
+
+                        Features
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#interactive-map">
+
+                        Campus Map
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#building-section">
+
+                        Buildings
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>
+
+                Features
+
+            </h3>
+
+            <ul>
+
+                <li>
+
+                    AI Chatbot
+
+                </li>
+
+                <li>
+
+                    Smart Navigation
+
+                </li>
+
+                <li>
+
+                    Crowd Prediction
+
+                </li>
+
+                <li>
+
+                    Interactive Campus Map
+
+                </li>
+
+                <li>
+
+                    Building Information
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>
+
+                Contact
+
+            </h3>
+
+            <p>
+
+                Sri Guru Granth Sahib World University
+
+            </p>
+
+            <p>
+
+                Fatehgarh Sahib,
+                Punjab
+
+            </p>
+
+            <p>
+
+                Email:
+                info@sggswu.edu.in
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 Campus Navigation Assistant.
+            All Rights Reserved.
+
+        </p>
+
+        <p>
+
+            Developed using
+            Flask,
+            HTML,
+            CSS,
+            JavaScript,
+            and Groq AI.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- ========================================= -->
+<!-- Scroll To Top -->
+<!-- ========================================= -->
+
+<button
+    id="scrollTopBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- ========================================= -->
+<!-- Loading Screen -->
+<!-- ========================================= -->
+
+<div
+    id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-circle"></div>
+
+        <h2>
+
+            Campus Navigation Assistant
+
+        </h2>
+
+        <p>
+
+            Loading...
+
+        </p>
+
+    </div>
+
+</div>
+
+<!-- ========================================= -->
+<!-- Toast Notification -->
+<!-- ========================================= -->
+
+<div
+    id="toast">
+
+    Welcome!
+
+</div>
+
+<!-- ========================================= -->
+<!-- Floating Chat Button -->
+<!-- ========================================= -->
+
+<button
+    id="floatingChat">
+
+    <i class="fa-solid fa-comments"></i>
+
+</button>
+
+<!-- ========================================= -->
+<!-- Chart.js -->
+<!-- ========================================= -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- ========================================= -->
+<!-- Main JavaScript -->
+<!-- ========================================= -->
+
+<script src="{{ url_for('static',
+filename='js/script.js') }}"></script>
+
+</body>
+
+</html>

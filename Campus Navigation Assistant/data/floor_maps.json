@@ -1,0 +1,111 @@
+{
+  "Ground Floor": {
+    "id": "ETC-GF",
+    "building": "Emerging Technology Complex",
+    "floor": 0,
+    "title": "Ground Floor",
+    "image": "maps/ground.png",
+    "svg": "maps/ground.svg",
+    "thumbnail": "maps/thumbnails/ground.png",
+    "navigation_file": "etc/ground_navigation.json",
+    "dataset": "etc/ground_floor.json",
+    "has_indoor_navigation": true,
+    "default_zoom": 1.0
+  },
+
+  "First Floor": {
+    "id": "ETC-1",
+    "building": "Emerging Technology Complex",
+    "floor": 1,
+    "title": "First Floor",
+    "image": "maps/floor1.png",
+    "svg": "maps/floor1.svg",
+    "thumbnail": "maps/thumbnails/floor1.png",
+    "navigation_file": "etc/first_floor_navigation.json",
+    "dataset": "etc/first_floor.json",
+    "has_indoor_navigation": true,
+    "default_zoom": 1.0
+  },
+
+  "Second Floor": {
+    "id": "ETC-2",
+    "building": "Emerging Technology Complex",
+    "floor": 2,
+    "title": "Second Floor",
+    "image": "maps/floor2.png",
+    "svg": "maps/floor2.svg",
+    "thumbnail": "maps/thumbnails/floor2.png",
+    "navigation_file": "etc/second_floor_navigation.json",
+    "dataset": "etc/second_floor.json",
+    "has_indoor_navigation": true,
+    "default_zoom": 1.0
+  },
+
+  "Third Floor": {
+    "id": "ETC-3",
+    "building": "Emerging Technology Complex",
+    "floor": 3,
+    "title": "Third Floor",
+    "image": "maps/floor3.png",
+    "svg": "maps/floor3.svg",
+    "thumbnail": "maps/thumbnails/floor3.png",
+    "navigation_file": "etc/third_floor_navigation.json",
+    "dataset": "etc/third_floor.json",
+    "has_indoor_navigation": true,
+    "default_zoom": 1.0
+  },
+
+  "Fourth Floor": {
+    "id": "ETC-4",
+    "building": "Emerging Technology Complex",
+    "floor": 4,
+    "title": "Fourth Floor",
+    "image": "maps/floor4.png",
+    "svg": "maps/floor4.svg",
+    "thumbnail": "maps/thumbnails/floor4.png",
+    "navigation_file": "etc/fourth_floor_navigation.json",
+    "dataset": "etc/fourth_floor.json",
+    "has_indoor_navigation": true,
+    "default_zoom": 1.0
+  },
+
+  "Fifth Floor": {
+    "id": "ETC-5",
+    "building": "Emerging Technology Complex",
+    "floor": 5,
+    "title": "Fifth Floor",
+    "image": "maps/floor5.png",
+    "svg": "maps/floor5.svg",
+    "thumbnail": "maps/thumbnails/floor5.png",
+    "navigation_file": "etc/fifth_floor_navigation.json",
+    "dataset": "etc/fifth_floor.json",
+    "has_indoor_navigation": true,
+    "default_zoom": 1.0
+  },
+
+  "Sixth Floor": {
+    "id": "ETC-6",
+    "building": "Emerging Technology Complex",
+    "floor": 6,
+    "title": "Sixth Floor",
+    "image": "maps/floor6.png",
+    "svg": "maps/floor6.svg",
+    "thumbnail": "maps/thumbnails/floor6.png",
+    "navigation_file": "etc/sixth_floor_navigation.json",
+    "dataset": "etc/sixth_floor.json",
+    "has_indoor_navigation": true,
+    "default_zoom": 1.0
+  },
+
+  "Campus": {
+    "id": "CAMPUS",
+    "building": "Sri Guru Granth Sahib World University",
+    "floor": -1,
+    "title": "Campus Map",
+    "image": "maps/campus.png",
+    "svg": "maps/campus.svg",
+    "thumbnail": "maps/thumbnails/campus.png",
+    "has_indoor_navigation": false,
+    "default_zoom": 1.0
+  }
+}

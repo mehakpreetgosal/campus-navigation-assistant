@@ -1,0 +1,86 @@
+{
+  "South Staircase": [
+    "111",
+    "Lift A"
+  ],
+
+  "111": [
+    "110"
+  ],
+
+  "110": [
+    "109"
+  ],
+
+  "109": [
+    "108"
+  ],
+
+  "108": [
+    "ERP Cell"
+  ],
+
+  "ERP Cell": [
+    "HOD Computer Science",
+    "Department of Computer Science"
+  ],
+
+  "Department of Computer Science": [
+    "Dr. S. S. Billing Office"
+  ],
+
+  "Dr. S. S. Billing Office": [
+    "Central Staircase"
+  ],
+
+  "Central Staircase": [
+    "Lift B",
+    "Biotechnology Lab 1"
+  ],
+
+  "Biotechnology Lab 1": [
+    "Biotechnology Lab 2"
+  ],
+
+  "Biotechnology Lab 2": [
+    "Plant Tissue Culture Lab"
+  ],
+
+  "Plant Tissue Culture Lab": [
+    "Animal Tissue Culture Lab"
+  ],
+
+  "Animal Tissue Culture Lab": [
+    "PhD Research Lab"
+  ],
+
+  "PhD Research Lab": [
+    "Genetic Engineering Research Lab"
+  ],
+
+  "Genetic Engineering Research Lab": [
+    "Nano Chemistry Lab"
+  ],
+
+  "Nano Chemistry Lab": [
+    "Micro Biology Lab"
+  ],
+
+  "Micro Biology Lab": [
+    "North Staircase"
+  ],
+
+  "North Staircase": [
+    "Lift B"
+  ],
+
+  "Lift A": [
+    "Ground Floor",
+    "Second Floor"
+  ],
+
+  "Lift B": [
+    "Ground Floor",
+    "Second Floor"
+  ]
+}

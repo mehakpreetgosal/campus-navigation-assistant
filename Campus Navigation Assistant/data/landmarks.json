@@ -1,0 +1,85 @@
+{
+  "Main Gate": {
+    "name": "Main Gate",
+    "type": "Entrance",
+    "description": "Main entrance of Sri Guru Granth Sahib World University.",
+    "nearby": [
+      "Left Park",
+      "Right Park",
+      "Student Car Parking",
+      "Student Two Wheeler Parking"
+    ]
+  },
+
+  "Left Park": {
+    "name": "Left Park",
+    "type": "Park",
+    "description": "Large green park located on the left side after entering the university.",
+    "nearby": [
+      "Cafeteria",
+      "Bhai Gurdas Academic Block"
+    ]
+  },
+
+  "Right Park": {
+    "name": "Right Park",
+    "type": "Park",
+    "description": "Small park located near the Emerging Technology Complex.",
+    "nearby": [
+      "Emerging Technology Complex"
+    ]
+  },
+
+  "Cafeteria": {
+    "name": "Cafeteria",
+    "type": "Food Court",
+    "description": "Main cafeteria serving students and staff.",
+    "nearby": [
+      "Left Park",
+      "Emerging Technology Complex",
+      "Bhai Gurdas Academic Block"
+    ]
+  },
+
+  "University Stadium": {
+    "name": "University Stadium",
+    "type": "Sports Complex",
+    "description": "University sports stadium and athletics facilities.",
+    "nearby": [
+      "Main Gate"
+    ]
+  },
+
+  "Girls Hostel": {
+    "name": "Girls Hostel",
+    "type": "Hostel",
+    "description": "Residential hostel for female students.",
+    "nearby": [
+      "Bhai Gurdas Academic Block"
+    ]
+  },
+
+  "Teacher Parking": {
+    "name": "Teacher Parking",
+    "type": "Parking",
+    "description": "Parking area reserved for faculty members."
+  },
+
+  "University Van Parking": {
+    "name": "University Van Parking",
+    "type": "Parking",
+    "description": "Parking area for university transport vehicles."
+  },
+
+  "Student Car Parking": {
+    "name": "Student Car Parking",
+    "type": "Parking",
+    "description": "Parking area for student cars."
+  },
+
+  "Student Two Wheeler Parking": {
+    "name": "Student Two Wheeler Parking",
+    "type": "Parking",
+    "description": "Parking area for student motorcycles and scooters."
+  }
+}

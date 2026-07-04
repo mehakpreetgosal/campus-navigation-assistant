@@ -1,0 +1,22 @@
+{
+  "campus_name": "Sri Guru Granth Sahib World University",
+
+  "buildings": [
+    "Emerging Technology Complex",
+    "Bhai Gurdas Academic Block"
+  ],
+
+  "outdoor_locations": [
+    "Main Gate",
+    "Second Gate",
+    "Left Park",
+    "Right Park",
+    "Cafeteria",
+    "Fields of Agriculture",
+    "Parking Area",
+    "Girls Hostel",
+    "Boys Hostel",
+    "Playground",
+    "Meteorology Observatory"
+  ]
+}

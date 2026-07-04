@@ -1,0 +1,66 @@
+{
+  "Main Gate": {
+    "id": "ENT-001",
+    "name": "Main Gate",
+    "building": "Campus",
+    "type": "Main Entrance",
+    "status": "Open",
+    "connected_to": [
+      "Left Park",
+      "Right Park",
+      "Student Car Parking",
+      "Student Two Wheeler Parking"
+    ]
+  },
+
+  "Emerging Technology Complex Entrance": {
+    "id": "ENT-002",
+    "name": "Emerging Technology Complex Entrance",
+    "building": "Emerging Technology Complex",
+    "type": "Building Entrance",
+    "status": "Open",
+    "connected_to": [
+      "Ground Floor",
+      "Lift A",
+      "Lift B",
+      "South Staircase"
+    ]
+  },
+
+  "Bhai Gurdas Academic Block Entrance": {
+    "id": "ENT-003",
+    "name": "Bhai Gurdas Academic Block Entrance",
+    "building": "Bhai Gurdas Academic Block",
+    "type": "Building Entrance",
+    "status": "Open",
+    "connected_to": [
+      "Reception",
+      "Ground Floor",
+      "Teacher Parking"
+    ]
+  },
+
+  "Library Entrance": {
+    "id": "ENT-004",
+    "name": "Central Library Entrance",
+    "building": "Emerging Technology Complex",
+    "type": "Internal Entrance",
+    "status": "Open",
+    "connected_to": [
+      "Central Library",
+      "Ground Floor Corridor"
+    ]
+  },
+
+  "Cafeteria Entrance": {
+    "id": "ENT-005",
+    "name": "Cafeteria Entrance",
+    "building": "Campus",
+    "type": "Public Entrance",
+    "status": "Open",
+    "connected_to": [
+      "Left Park",
+      "Cafeteria"
+    ]
+  }
+}
